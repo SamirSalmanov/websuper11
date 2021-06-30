@@ -1310,24 +1310,13 @@ footer .all-footer .right-foot ul li a:hover {
   text-align: center;
 }
 
-.process .step1 {
+.process .step {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.process .step1 .text1 {
-  margin: auto;
-  text-align: center;
-}
-
-.process .step2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.process .step2 .text2 {
+.process .step .text {
   margin: auto;
   text-align: center;
 }
@@ -1522,5 +1511,14 @@ footer .all-footer .right-foot ul li a:hover {
 
 .method .ico .clock i:hover {
   color: #0a0a55;
+}
+
+@media only screen and (max-width: 700px) {
+  .process .step1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
 }
 /*# sourceMappingURL=style.css.map */

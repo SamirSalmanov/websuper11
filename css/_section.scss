@@ -6,21 +6,15 @@
         text-align: center;
 
     }
-    .step1{
+    .step{
         display: flex;
-        .text1{
+        .text{
             margin: auto;
             text-align: center;
         }
 
     }
-    .step2{
-        display: flex;
-        .text2{
-            margin: auto;
-            text-align: center;
-        }
-    }
+    
 }
 .design{
     .evolution{
@@ -206,3 +200,12 @@
 //         border: 4px solid blue;
 //     }
 // }
+
+@media only screen and (max-width: 700px) {
+    .process{
+        .step1{
+            flex-direction: row-reverse; 
+              }
+    }
+ 
+  }

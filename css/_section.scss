@@ -1,0 +1,208 @@
+.process{
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+
+    }
+    .step1{
+        display: flex;
+        .text1{
+            margin: auto;
+            text-align: center;
+        }
+
+    }
+    .step2{
+        display: flex;
+        .text2{
+            margin: auto;
+            text-align: center;
+        }
+    }
+}
+.design{
+    .evolution{
+        h2{
+            text-align: center;
+            padding-top: 20px;
+        }
+        p{
+            text-align: center;
+            padding-top: 20px;
+
+        }
+    }
+}
+.evo-img{
+    h4{
+        text-align: center;
+
+        padding-top: 30px;
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+
+    }
+    .img1{
+        align-items: center;
+        position: relative;
+        &:hover{
+            .bg1{
+                transform:translate(-50%,-50%) scale(.7);
+            }
+        }
+        .bg1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%) scale(1);
+            color: white;
+            background: rgba(111,39,199,0.75);
+            border-radius: 50%;
+            width: 155px;
+            height: 155px;
+            opacity: .8;
+            transition: .3s ease-in-out;
+            h1{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 80px;
+                opacity: 1;
+            }
+        }
+        img{
+           border-radius: 50%;
+           width: 50%;
+           object-fit: cover;
+        }
+    }
+}
+.method{
+    margin-top: 50px;
+    h2{
+        padding-bottom: 30px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+    .abcd {
+        justify-content: center;
+
+        .for-bg {
+            background: #571F9C;
+            padding: 10px 30px;
+            transition: .2s ease-in-out;
+            cursor: pointer;
+            position: relative;
+
+            .line1 {
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                width: 0%;
+                height: 2px;
+                background-color: #571F9C;
+                transition: .2s ease-in-out;
+            }
+
+            .line2 {
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                width: 2px;
+                height: 0%;
+                background-color: #571F9C;
+                transition: .2s ease-in-out;
+            }
+
+            .line3 {
+                position: absolute;
+                right: -5px;
+                bottom: -5px;
+                width: 2px;
+                height: 0%;
+                background-color: #571F9C;
+                transition: .2s ease-in-out;
+            }
+
+            .line4 {
+                position: absolute;
+                bottom: -5px;
+                right: -5px;
+                width: 0%;
+                height: 2px;
+                background-color: #571F9C;
+                transition: .2s ease-in-out;
+            }
+
+            &:hover {
+                background: #4b1c85;
+
+                .line1 {
+                    width: 60%;
+                }
+
+                .line2 {
+                    height: 80%;
+                }
+
+                .line3 {
+                    height: 80%;
+                }
+
+                .line4 {
+                    width: 80%;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: 400;
+
+            }
+
+            i {
+                font-size: 15px;
+                color: white;
+                padding-left: 15px;
+            }
+        }
+
+    }
+    .ico{
+        padding: 20px;
+        h4{
+            padding-bottom: 10px;
+        }
+        display: flex;
+        .clock{
+            padding-right: 10px;
+            i{
+                font-size: 30px;
+                color: rgb(10, 10, 252);
+                &:hover{
+                    color: rgb(10, 10, 85);
+                }
+            }
+        }
+    
+    }
+}
+// .phot{
+//     h2{
+//         text-align: center;
+//     }
+//     p{
+//         text-align: center;
+//     }
+//     hr{
+//         width: 5%;
+//         border: 4px solid blue;
+//     }
+// }

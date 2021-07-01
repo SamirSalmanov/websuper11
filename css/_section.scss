@@ -4,13 +4,16 @@
     }
     p{
         text-align: center;
+        
 
     }
     .step{
         display: flex;
         .text{
-            margin: auto;
-            text-align: center;
+             margin: auto;
+             text-align: center;
+             width: 80%;
+             margin: auto;
         }
 
     }
@@ -25,6 +28,8 @@
         p{
             text-align: center;
             padding-top: 20px;
+            width: 80%;
+            margin: auto;
 
         }
     }
@@ -90,67 +95,68 @@
         .for-bg {
             background: #571F9C;
             padding: 10px 30px;
-            transition: .2s ease-in-out;
+            transition: .3s ease-in-out; 
+             
             cursor: pointer;
             position: relative;
 
             .line1 {
                 position: absolute;
-                top: -5px;
-                left: -5px;
+                top: -3px;
+                left: -3px;
                 width: 0%;
                 height: 2px;
                 background-color: #571F9C;
-                transition: .2s ease-in-out;
+                transition: .4s ease-in-out;
             }
 
             .line2 {
                 position: absolute;
-                top: -5px;
-                left: -5px;
+                top: -3px;
+                left: -3px;
                 width: 2px;
                 height: 0%;
                 background-color: #571F9C;
-                transition: .2s ease-in-out;
+                transition: .4s ease-in-out;
             }
 
             .line3 {
                 position: absolute;
-                right: -5px;
-                bottom: -5px;
+                right: -3px;
+                bottom: -3px;
                 width: 2px;
                 height: 0%;
                 background-color: #571F9C;
-                transition: .2s ease-in-out;
+                transition: .4s ease-in-out;
             }
 
             .line4 {
                 position: absolute;
-                bottom: -5px;
-                right: -5px;
+                bottom: -3px;
+                right: -3px;
                 width: 0%;
                 height: 2px;
                 background-color: #571F9C;
-                transition: .2s ease-in-out;
+                transition: .4s ease-in-out;
             }
 
             &:hover {
                 background: #4b1c85;
 
                 .line1 {
-                    width: 60%;
+                    width: 98%;
                 }
 
                 .line2 {
-                    height: 80%;
+                    height: 98%;
                 }
 
                 .line3 {
-                    height: 80%;
+                    height: 98%;
                 }
 
                 .line4 {
-                    width: 80%;
+                    width: 98%;
                 }
             }
 
